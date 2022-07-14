@@ -1,0 +1,26 @@
+{
+  "name": "express-babel-base",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "nodemon --exec babel-node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "@babel/node": "^7.18.6",
+    "@babel/preset-env": "^7.18.6",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^28.1.2",
+    "jest": "^28.1.2",
+    "regenerator-runtime": "^0.13.9",
+    "superagent": "^8.0.0",
+    "supertest": "^6.2.4"
+  }
+}
